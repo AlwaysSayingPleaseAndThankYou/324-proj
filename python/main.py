@@ -11,9 +11,10 @@ def val_gen():
 
 
 def color_gen():
-  yield [next(val_gen()) for i in range(3)]
+  yield tuple(next(val_gen()) for i in range(3))
 
 
 while True:
-  np[choice(range(8))]=(next(color_gen()))
+
+  np[choice(range(8))] = (next(color_gen()))
   sleep(0.5)
