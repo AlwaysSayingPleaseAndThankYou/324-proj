@@ -18,3 +18,5 @@ while True:
 
   np[choice(range(8))] = next(color_gen())
   sleep(0.5)
+
+  ///oh man this is deeply cursed lol
